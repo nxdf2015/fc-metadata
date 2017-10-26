@@ -1,0 +1,79 @@
+/* styles */
+/* called by your view template */
+
+/* You might want to try something fancier: */
+/* less: http://lesscss.org/ */
+
+/* * {
+  box-sizing: content-box;
+} */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 25px;
+}
+.container {
+  display : flex ;
+  flex-direction : column;
+  justify-content: space-around ;
+ align-items: center;
+}
+h1 {
+  font-weight: bold;
+  color: pink;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+p {
+  max-width: 600px;
+}
+
+
+
+input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px;
+  flex : 3;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+button {
+  flex-basis : 60px;
+  font-size: 16px;
+  border-radius: 3px;
+  background-color: lightgrey;
+  border: 1px solid grey;
+  box-shadow: 2px 2px teal;
+  cursor: pointer;
+  height : 100%;
+}
+
+button:hover {
+  background-color: yellow;
+}
+
+button:active {
+  box-shadow: none;
+}
+
+.radio { 
+display : flex ;}
+footer {
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid lightgrey;
+}
+
+footer > a {
+  color: #BBBBBB;
+}
+
+.nicejob {
+  text-decoration: line-through;
+}
